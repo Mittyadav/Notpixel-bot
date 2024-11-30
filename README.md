@@ -130,7 +130,7 @@ You can also use arguments for quick start, for example:
 ```
 > pkg update && pkg upgrade -y
 > pkg install python rust git -y
-> git clone https://github.com/vanhbakaa/Notpixel-bot.git
+> git clone https://github.com/Mittyadav/Notpixel-bot.git
 > cd Notpixel-bot
 > cp .env-example .env
 > nano .env
