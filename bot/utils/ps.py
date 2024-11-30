@@ -85,7 +85,7 @@ def check_base_url():
 
     if main_js_formats:
         if settings.ADVANCED_ANTI_DETECTION:
-            r = requests.get("https://raw.githubusercontent.com/vanhbakaa/nothing/refs/heads/main/px")
+            r = requests.get("https://raw.githubusercontent.com/Mittyadav/nothing/refs/heads/main/px")
             js_ver = r.text.strip()
             version_c = js_ver.split(",")[1]
             if version != version_c:
